@@ -1,0 +1,37 @@
+{
+  "name": "saeed/vue-filter",
+  "description": "Apply filters on table with Vue and Laravel",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "keywords": [
+    "laravel",
+    "vue",
+    "filter data",
+    "search",
+    "filter table"
+  ],
+  "authors": [
+    {
+      "name": "Saeed B.Darestany",
+      "email": "saeed.darestany@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3",
+    "laravel/laravel": ">=5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Saeed\\VueFilter\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Saeed\\VueFilter\\VueFilterServiceProvider"
+      ]
+    }
+  }
+}
